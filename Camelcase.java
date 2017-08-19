@@ -1,9 +1,9 @@
 public class CamelCase {
  
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner in= new Scanner(System.in);
         System.out.print("Enter a sentence: ");
-        String input = scanner.nextLine();
+        String input = in.nextLine();
         String result = "";
         char firstChar = input.charAt(0);
         result = result + Character.toUpperCase(firstChar);
